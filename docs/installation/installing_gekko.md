@@ -13,6 +13,7 @@ To get Gekko running you need to do the following:
 - install nodejs
 - download Gekko
 - install Gekko's dependencies
+- copy `sample-config.js` to `config.js` in the same folder
 
 ## Installing nodejs
 
