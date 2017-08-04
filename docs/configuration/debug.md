@@ -4,8 +4,17 @@ If you haven't done so already, first thing you will need to do is to copy `samp
 
 # Enable debug log in command line
 
-Set `config.debub = true;` (should already be the default setting) to see debug logs when using the command line
+To see debug logs when using the command line, set below setting in `config.js`
 
-Set `config.silent = false;` and `config.debug = true;` in `gekko/web/routes/baseConfig.js` to see debug logs when using ui mode
+    config.debub = true;
 
-With those settings enabled, you can log anything anywhere using `console.log('some message');`
+
+To see debug logs when using ui mode, set below settings in `gekko/web/routes/baseConfig.js` 
+
+    config.silent = false;
+    config.debug = true; 
+
+
+With those settings enabled, you can log anything anywhere using 
+
+    console.log('some message');
